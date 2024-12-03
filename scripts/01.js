@@ -25,7 +25,7 @@ class DayOne extends Day {
         distances.push(Math.abs(distance))
     }
 
-    return distances.reduce((prev, cur) => prev + cur,0)
+    return distances.reduce((prev, cur) => prev + cur, 0)
   };
 
   async partTwo() {

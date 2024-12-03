@@ -124,8 +124,7 @@ class DayTwo extends Day {
         const fifthValid = this.validate(removeFirstInArray)
 
         if(fifthValid === true) {
-            safe++
-            continue;
+            safe++      
         }
     }
 
